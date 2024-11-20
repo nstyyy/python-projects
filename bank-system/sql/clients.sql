@@ -1,0 +1,8 @@
+CREATE TABLE clients (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    prenom VARCHAR(50) NOT NULL,
+    nom VARCHAR(50) NOT NULL,
+    telephone VARCHAR(15) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    solde DECIMAL(10, 2) DEFAULT 0
+);
